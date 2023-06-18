@@ -16,10 +16,31 @@ const Hero = () => {
         <div>
           {/* eslint-disable-next-line react/no-unescaped-entities */}
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Nishanth</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>Software Engineer with experience in <br className="sm:block hiddent" />Application Development (Python, JavaScript, Rust). <br className="sm:block hiddent" />Cybersecurity Enthusiast. TryHackMe Top 1%</p>
+          <p className={`${styles.heroSubText} mt-2gg text-white-100`}>
+            Software Engineer with experience in <br className="sm:block hidden" />Application Development (Python, JavaScript, Rust). <br className="sm:block hidden" />Cybersecurity Enthusiast.
+          </p>
         </div> 
       </div>
-    <ComputersCanvas />
+
+      <ComputersCanvas />
+
+    <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+        <a href='#about'>
+          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+            <motion.div
+              animate={{
+                y: [0, 24, 0],
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                repeatType: "loop",
+              }}
+              className='w-3 h-3 rounded-full bg-secondary mb-1'
+            />
+          </div>
+        </a>
+      </div>
     </section>
   )
 }
