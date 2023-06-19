@@ -17,7 +17,7 @@ const Hero = () => {
           {/* eslint-disable-next-line react/no-unescaped-entities */}
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Nishanth</span></h1>
           <p className={`${styles.heroSubText} mt-2gg text-white-100`}>
-            Software Engineer with experience in <br className="sm:block hidden" />Application Development (Python, JavaScript, Rust). <br className="sm:block hidden" />Cybersecurity Enthusiast.
+            Software Engineer & Cybersecurity Enthusiast.
           </p>
         </div> 
       </div>
