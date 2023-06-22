@@ -7,13 +7,13 @@ import {
   typescript,
   html,
   css,
+  linux,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
+  python,
   docker,
   bofa,
   carrent,
@@ -59,6 +59,14 @@ const services = [
 
 const technologies = [
   {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Linux",
+    icon: linux,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -77,10 +85,6 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -102,14 +106,7 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "Python",
-    icon: figma,
-  },
-  {
-    name: "Linux",
-    icon: docker,
-  },
+
 ];
 
 const experiences = [
