@@ -74,7 +74,9 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-
+        <div>Nishanth Prem</div>
+        <div>Email: nishanthprem8@gmail.com</div>
+        <div>LinkedIn: www.linkedin.com/in/nishanthprem</div>
         
       </motion.div>
 
