@@ -18,6 +18,7 @@ import {
   bofa,
   aimtrainer,
   threejs,
+  facerecognition,
 } from "../assets";
 
 export const navLinks = [
@@ -104,7 +105,10 @@ const technologies = [
     name: "git",
     icon: git,
   },
-
+  {
+    name: "docker",
+    icon: docker,
+  },
 ];
 
 const experiences = [
@@ -144,6 +148,28 @@ const projects = [
     ],
     image: aimtrainer, 
     source_code_link: "https://github.com/NishanthPrem/aim_trainer",
+  },
+
+  {
+    name: "Face Recognition",
+    description:
+      "Face Detection using OpenCV",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OpenCV",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Beginner",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: facerecognition, 
+    source_code_link: "https://github.com/NishanthPrem/FaceDetection",
   },
  
 ];

@@ -27,6 +27,7 @@ import  bofa from "./company/bofa.png";
 import tesla from "./company/tesla.png";
 
 import  aimtrainer from "./aimtrainer.jpg";
+import  facerecognition from "./facerecognition.jpg";
 
 export {
   logo,
@@ -54,5 +55,6 @@ export {
   bofa,
   tesla,
   aimtrainer,
+  facerecognition,
   linux
 };
