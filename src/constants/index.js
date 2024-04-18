@@ -182,6 +182,28 @@ const projects = [
     image: facerecognition, 
     source_code_link: "https://github.com/NishanthPrem/FaceDetection",
   },
+
+  {
+    name: "Finance Dashboard",
+    description:
+      "Dashboard using Javascript",
+    tags: [
+      {
+        name: "JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PyGame",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Gaming",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: aimtrainer, 
+    source_code_link: "https://github.com/NishanthPrem/finance_dashboard",
+  },
  
 ];
 
