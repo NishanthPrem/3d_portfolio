@@ -117,22 +117,11 @@ const experiences = [
     company_name: "Bank of America",
     icon: bofa,
     iconBg: "#383E56",
-    date: "July 2021 - December 2022",
+    date: "July 2020 - December 2022",
     points: [
       "Developing and maintaining applications using python and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-
-  {
-    title: "Technology Apprentice",
-    company_name: "Bank of America",
-    icon: bofa,
-    iconBg: "#383E56",
-    date: "July 2020 - July 2021",
-    points: [
-      "",
     ],
   },
 ];
@@ -193,18 +182,39 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "PyGame",
+        name: "TS",
         color: "green-text-gradient",
       },
       {
-        name: "Gaming",
+        name: "MUI",
         color: "pink-text-gradient",
-      },
+      },      
     ],
     image: aimtrainer, 
     source_code_link: "https://github.com/NishanthPrem/finance_dashboard",
   },
- 
+
+  {
+    name: "RSS Feedreader GUI",
+    description:
+      "RSS Feed Reader application which parses the link and pull the title, link and description of the URL",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Flask",
+        color: "green-text-gradient",
+      },
+      {
+        name: "RSS",
+        color: "pink-text-gradient",
+      },      
+    ],
+    image: aimtrainer, 
+    source_code_link: "https://github.com/NishanthPrem/finance_dashboard",
+  },
 ];
 
 export { services, technologies, experiences,  projects };
