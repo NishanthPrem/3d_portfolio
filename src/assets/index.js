@@ -28,6 +28,8 @@ import tesla from "./company/tesla.png";
 
 import  aimtrainer from "./aimtrainer.jpg";
 import  facerecognition from "./facerecognition.jpg";
+import financedash from "./financedashboard.png";
+import rssfeed from "./rss.png";
 
 export {
   logo,
@@ -56,5 +58,7 @@ export {
   tesla,
   aimtrainer,
   facerecognition,
-  linux
+  linux,
+  financedash,
+  rssfeed
 };

@@ -19,6 +19,8 @@ import {
   aimtrainer,
   threejs,
   facerecognition,
+  financedash,
+  rssfeed
 } from "../assets";
 
 export const navLinks = [
@@ -190,7 +192,7 @@ const projects = [
         color: "pink-text-gradient",
       },      
     ],
-    image: aimtrainer, 
+    image: financedash, 
     source_code_link: "https://github.com/NishanthPrem/finance_dashboard",
   },
 
@@ -212,8 +214,8 @@ const projects = [
         color: "pink-text-gradient",
       },      
     ],
-    image: aimtrainer, 
-    source_code_link: "https://github.com/NishanthPrem/finance_dashboard",
+    image: rssfeed, 
+    source_code_link: "https://github.com/NishanthPrem/rss_freader_gui",
   },
 ];
 
