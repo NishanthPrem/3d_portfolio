@@ -121,9 +121,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "July 2020 - December 2022",
     points: [
-      "Developing and maintaining applications using python and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Utilized NLP, OCR, and Machine Learning to automate document classification and key information extraction resulting in a 90% reduction in manual effort, significantly expediting document processing workflows in the home loan processing department.",
+      "Leveraged expertise in Python, Linux, SQL, Git, and Agile methodologies to expedite projects by 20%, reinforce security, and stimulate innovation, yielding a 15% operational efficiency surge and a 30% client satisfaction upswing.",
+      "Managed a process re-engineering project to improve and consolidate end-to-end service processes; restructured communication flow among 5 departments and cut down paperwork by 80%.",
+      "Played a pivotal role in ensuring software quality by conducting comprehensive testing, offering unwavering 24/7 client support, and devising strategic blueprints for future software enhancements.",
     ],
   },
 ];
@@ -177,7 +178,7 @@ const projects = [
   {
     name: "Finance Dashboard",
     description:
-      "Dashboard using Javascript",
+      "Dashboard using Typescript",
     tags: [
       {
         name: "JS",
@@ -199,7 +200,7 @@ const projects = [
   {
     name: "RSS Feedreader GUI",
     description:
-      "RSS Feed Reader application which parses the link and pull the title, link and description of the URL",
+      "RSS Feed Reader application which parses the link and outputs the title, link and description of the URL",
     tags: [
       {
         name: "Python",
