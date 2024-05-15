@@ -28,7 +28,7 @@ import tesla from "./company/tesla.png";
 
 import  aimtrainer from "./aimtrainer.jpg";
 import  facerecognition from "./facerecognition.jpg";
-import financedash from "./financedashboard.png";
+import financedash from "./finance_dashboard.png";
 import rssfeed from "./rss.png";
 
 export {
