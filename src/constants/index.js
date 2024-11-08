@@ -218,6 +218,94 @@ const projects = [
     image: rssfeed, 
     source_code_link: "https://github.com/NishanthPrem/rss_freader_gui",
   },
+
+  {
+    name: "Cloud Resume",
+    description:
+      "",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NoSQL",
+        color: "pink-text-gradient",
+      },      
+    ],
+    image: rssfeed, 
+    source_code_link: "https://github.com/NishanthPrem/cloud_resume",
+  },
+
+  {
+    name: "Churn Prediction Model",
+    description:
+      "",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PyTorch",
+        color: "pink-text-gradient",
+      },      
+    ],
+    image: rssfeed, 
+    source_code_link: "https://github.com/NishanthPrem/churn_prediction",
+  },
+
+  {
+    name: "Sentiment Analysis",
+    description:
+      "",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NLP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ML",
+        color: "pink-text-gradient",
+      },      
+    ],
+    image: rssfeed, 
+    source_code_link: "https://github.com/NishanthPrem/sentiment_analysis",
+  }, 
+
+  {
+    name: "Go Web Crawler",
+    description:
+      "",
+    tags: [
+      {
+        name: "Go",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CLI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Goroutines",
+        color: "pink-text-gradient",
+      },      
+    ],
+    image: rssfeed, 
+    source_code_link: "https://github.com/NishanthPrem/gocrawler",
+  },  
 ];
 
 export { services, technologies, experiences,  projects };
