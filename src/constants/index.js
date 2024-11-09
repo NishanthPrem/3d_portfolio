@@ -305,7 +305,29 @@ const projects = [
     ],
     image: rssfeed, 
     source_code_link: "https://github.com/NishanthPrem/gocrawler",
-  },  
+  },
+  {
+    name: "Google Stock Price Predictor",
+    description:
+      "",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PyTorch",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AI",
+        color: "pink-text-gradient",
+      },      
+    ],
+    image: rssfeed, 
+    source_code_link: "https://github.com/NishanthPrem/google_stock_price_predictor",
+  },
+  
 ];
 
 export { services, technologies, experiences,  projects };
