@@ -28,6 +28,10 @@ import  facerecognition from "./facerecognition.jpg";
 import financedash from "./finance_dashboard.png";
 import rssfeed from "./rss.png";
 import cloudresume from "./cloud_resume.png"
+import churnprediction from "./churn_prediction.png"
+import sentimentanalysis from "./sentiment_analysis.jpg"
+import gocrawler from "./gocrawler.jpg"
+import googlestock from "./google_stock.jpeg"
 
 export {
   logo,
@@ -56,5 +60,9 @@ export {
   linux,
   financedash,
   rssfeed,
-  cloudresume
+  cloudresume,
+  churnprediction,
+  sentimentanalysis,
+  gocrawler,
+  googlestock
 };

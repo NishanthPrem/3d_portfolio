@@ -20,7 +20,11 @@ import {
   threejs,
   facerecognition,
   financedash,
-  rssfeed
+  rssfeed,
+  cloudresume,
+  churnprediction,
+  sentimentanalysis,
+  googlestock
 } from "../assets";
 
 export const navLinks = [
@@ -237,7 +241,7 @@ const projects = [
         color: "pink-text-gradient",
       },      
     ],
-    image: rssfeed, 
+    image: cloudresume, 
     source_code_link: "https://github.com/NishanthPrem/cloud_resume",
   },
 
@@ -259,7 +263,7 @@ const projects = [
         color: "pink-text-gradient",
       },      
     ],
-    image: rssfeed, 
+    image: churnprediction, 
     source_code_link: "https://github.com/NishanthPrem/churn_prediction",
   },
 
@@ -281,7 +285,7 @@ const projects = [
         color: "pink-text-gradient",
       },      
     ],
-    image: rssfeed, 
+    image: sentimentanalysis, 
     source_code_link: "https://github.com/NishanthPrem/sentiment_analysis",
   }, 
 
@@ -303,7 +307,7 @@ const projects = [
         color: "pink-text-gradient",
       },      
     ],
-    image: rssfeed, 
+    image: gocrawler, 
     source_code_link: "https://github.com/NishanthPrem/gocrawler",
   },
   {
@@ -324,7 +328,7 @@ const projects = [
         color: "pink-text-gradient",
       },      
     ],
-    image: rssfeed, 
+    image: googlestock, 
     source_code_link: "https://github.com/NishanthPrem/google_stock_price_predictor",
   },
   
