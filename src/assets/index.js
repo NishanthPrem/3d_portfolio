@@ -21,15 +21,13 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import linux from "./tech/linux.png"
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
 import  bofa from "./company/bofa.png";
-import tesla from "./company/tesla.png";
 
 import  aimtrainer from "./aimtrainer.jpg";
 import  facerecognition from "./facerecognition.jpg";
 import financedash from "./finance_dashboard.png";
 import rssfeed from "./rss.png";
+import cloudresume from "./cloud_resume.png"
 
 export {
   logo,
@@ -52,13 +50,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
   bofa,
-  tesla,
   aimtrainer,
   facerecognition,
   linux,
   financedash,
-  rssfeed
+  rssfeed,
+  cloudresume
 };
