@@ -20,7 +20,11 @@ import {
   threejs,
   facerecognition,
   financedash,
-  rssfeed
+  rssfeed,
+  cloudresume,
+  churnprediction,
+  sentimentanalysis,
+  googlestock
 } from "../assets";
 
 export const navLinks = [
@@ -218,6 +222,95 @@ const projects = [
     image: rssfeed, 
     source_code_link: "https://github.com/NishanthPrem/rss_freader_gui",
   },
+
+  {
+    name: "Cloud Resume",
+    description:
+      "Resume hosted on AWS using S3, Lambda, API Gateway and DynamoDB",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NoSQL",
+        color: "pink-text-gradient",
+      },      
+    ],
+    image: cloudresume, 
+    source_code_link: "https://github.com/NishanthPrem/cloud_resume",
+  },
+
+  {
+    name: "Churn Prediction Model",
+    description:
+      "Customer churn prediction model using Pytorch",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PyTorch",
+        color: "pink-text-gradient",
+      },      
+    ],
+    image: churnprediction, 
+    source_code_link: "https://github.com/NishanthPrem/churn_prediction",
+  },
+
+  {
+    name: "Sentiment Analysis",
+    description:
+      "Sentinment analysis of product reviews using Python and NLP",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NLP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ML",
+        color: "pink-text-gradient",
+      },      
+    ],
+    image: sentimentanalysis, 
+    source_code_link: "https://github.com/NishanthPrem/sentiment_analysis",
+  }, 
+
+  {
+    name: "Google Stock Price Predictor",
+    description:
+      "Google stock price predictor using Pytorch and LSTM",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PyTorch",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AI",
+        color: "pink-text-gradient",
+      },      
+    ],
+    image: googlestock, 
+    source_code_link: "https://github.com/NishanthPrem/google_stock_price_predictor",
+  },
+  
 ];
 
 export { services, technologies, experiences,  projects };
