@@ -226,7 +226,7 @@ const projects = [
   {
     name: "Cloud Resume",
     description:
-      "",
+      "Resume hosted on AWS using S3, Lambda, API Gateway and DynamoDB",
     tags: [
       {
         name: "Python",
@@ -248,7 +248,7 @@ const projects = [
   {
     name: "Churn Prediction Model",
     description:
-      "",
+      "Customer churn prediction model using Pytorch",
     tags: [
       {
         name: "Python",
@@ -270,7 +270,7 @@ const projects = [
   {
     name: "Sentiment Analysis",
     description:
-      "",
+      "Sentinment analysis of product reviews using Python and NLP",
     tags: [
       {
         name: "Python",
@@ -292,7 +292,7 @@ const projects = [
   {
     name: "Google Stock Price Predictor",
     description:
-      "",
+      "Google stock price predictor using Pytorch and LSTM",
     tags: [
       {
         name: "Python",
