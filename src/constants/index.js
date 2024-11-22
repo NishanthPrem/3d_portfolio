@@ -290,27 +290,6 @@ const projects = [
   }, 
 
   {
-    name: "Go Web Crawler",
-    description:
-      "",
-    tags: [
-      {
-        name: "Go",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CLI",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Goroutines",
-        color: "pink-text-gradient",
-      },      
-    ],
-    image: gocrawler, 
-    source_code_link: "https://github.com/NishanthPrem/gocrawler",
-  },
-  {
     name: "Google Stock Price Predictor",
     description:
       "",
