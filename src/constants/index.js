@@ -242,7 +242,7 @@ const projects = [
       },      
     ],
     image: cloudresume, 
-    source_code_link: "https://github.com/NishanthPrem/cloud_resume",
+    source_code_link: "https://github.com/NishanthPrem/np_cloud_resume",
   },
 
   {
